@@ -485,7 +485,7 @@ img {
 }
 
 .footer-icon-wrap  {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline; 
@@ -493,6 +493,7 @@ img {
 
 .footer-container {
     /* margin-right: 120px; */
+    margin: 0 auto;
 }
 
 .footer-link {
@@ -519,7 +520,8 @@ img {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     display: block;
-    max-width: 264px;
+    /* max-width: 264px; */
+    max-width: 288px;
 }
 
 .footer-title {
