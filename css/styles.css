@@ -146,8 +146,9 @@ img {
 
 .title {
     background-color: #2E2F42;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    /* padding: 188px 0; */
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,15 +158,24 @@ img {
 
 .title-main {
     text-align: center;
-    font-size: 56px;   
+    /* font-size: 56px;    */
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
+    /* line-height: 1.07; */
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #FFF;
     margin: 0 auto;  
-    max-width: 496px;
-    padding-bottom: 48px;
-
+    /* max-width: 496px; */
+    max-width: 288px;
+    /* padding-bottom: 48px; */
+    padding-bottom: 72px;
+}
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi){
+    .title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob-2x.jpg);
+    }
 }
 
 .button {
@@ -823,6 +833,28 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 0 16px;
     }
 
+    .title {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
+    }
+
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .title {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab-2x.jpg);
+            }
+        }
+
+    .title-main {
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: unset;
+        max-width: 496px;
+        padding-bottom: 36px;
+
+    }
+
     .portfolio-list {
         gap: 72px 24px;
     }
@@ -862,6 +894,23 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .team > .container {
         max-width: 1158px;
         padding: 0 15px;
+    }
+
+    .title {
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    }
+
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .title {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+            }
+        }
+
+    .title-main {
+        padding-bottom: 48px;
     }
 
     .portfolio {
