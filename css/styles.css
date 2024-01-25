@@ -168,7 +168,7 @@ img {
     color: #FFF;
     margin: 0 auto;  
     /* max-width: 496px; */
-    max-width: 288px;
+    width: 288px;
     /* padding-bottom: 48px; */
     padding-bottom: 72px;
 }
@@ -529,8 +529,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     
 }
 .footer-icon-section {
