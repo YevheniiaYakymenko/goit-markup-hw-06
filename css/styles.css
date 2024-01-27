@@ -174,17 +174,18 @@ img {
 }
 
 .menu-close-btn {
-    display: block;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-bottom: 24px;
     width: 24px;
     height: 24px;
     padding: 0;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgb(46, 47, 66, 0.10);
     border-radius: 50%;
-    background-color: #E7E9FC;
-    opacity: 0.1;
-
+    background-color: rgb(231, 233, 252, 0.10);
 }
 
 .icon-menu-close {
@@ -919,6 +920,8 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
 }
 
 
