@@ -170,7 +170,7 @@ img {
     justify-content: space-between;
     opacity: 0;
     visibility: hidden;
-    pointer-events: noned;
+    pointer-events: none;
 }
 
 .menu-close-btn {
