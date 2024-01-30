@@ -924,13 +924,12 @@ img {
     align-items: center;
 }
 
-
-.check-text a {
+.check-span-policy {
     color: #4D5AE5;
     text-decoration-line: underline;
 }
 
-.check-text span {
+.check-text-span {
     padding: 4px;
     width: 16px;
     height: 16px;
